@@ -2,3 +2,11 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

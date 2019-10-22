@@ -11,7 +11,7 @@
     /* Rule for all transtions to be on the main link */
     transition: all 0.2s;
     position: relative;
-    font-size: 1.6rem;
+    font-size: $default-font-size;
   }
 
   &:hover {
@@ -64,5 +64,23 @@
     animation: moveInBottom 0.5s ease-out 0.75s;
     /* Apply 0% animation effect to the button using animation fill mode */
     animation-fill-mode: backwards;
+  }
+}
+
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: $default-font-size;
+    color: $color-primary;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid $color-primary;
+    padding: 3px;
+  }
+
+  &:hover {
+  }
+
+  &:active {
   }
 }

@@ -1,5 +1,8 @@
 {
     "workbench.colorCustomizations": {
       "titleBar.activeBackground": "#FFFF00" // change this color!
-    }
+    },
+    "cSpell.words": [
+      "mixins"
+    ]
   }
